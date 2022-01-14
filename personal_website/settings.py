@@ -15,7 +15,7 @@ from pathlib import Path
 import os
 import django_heroku
 import dj_database_url
-from decouple import config
+# from decouple import config
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'whitnoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'personal_website.urls'
