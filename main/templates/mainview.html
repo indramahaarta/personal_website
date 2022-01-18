@@ -1,26 +1,36 @@
-{% load static %}
+{% extends 'base.html' %} 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+{% load static %} 
 
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+{% block meta%}
+<title>Indra Mahaarta</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="{% static 'css/mainview.css' %}">
-</head>
-<body>
-    <center>
-        <div>
-            <h1>This website is currently under development :)</h1>
+<!-- CSS -->
+<link rel="stylesheet" href="{% static 'css/mainview.css' %}">
+{% endblock %} 
+
+{% block content %}
+<div class="main-content">
+    <div class="landing">
+        <div class="left">
+            <h1>Hi, i am <span class="name">Indra Mahaarta</span></h1>
+            <h4>Software Developer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus provident nisi hic quam assumenda, sapiente sit</p>
+            <div class="btn-container">
+                <button>Visit My Blog</button>
+            </div>
         </div>
-    </center>
-</body>
-</html>
+        <div class="right">
+            <div class="foto-profile">
+                <img src="static\foto\indra-removebg-preview.png" alt="indra">
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi sed ab laborum nostrum dolores eius, assumenda consectetur laboriosam nobis facilis quibusdam nemo, molestiae, velit maiores quidem neque ea. Sint, hic!
+        Quaerat aliquid, quasi reiciendis, consequuntur consequatur tempora fugiat eos sapiente dolorem illum, ab voluptatum nemo dolor mollitia dolores harum ut explicabo temporibus in commodi? Consequuntur vel adipisci impedit amet facere.
+        Laudantium error praesentium laborum id fugit consequatur, quod sint cupiditate! Officia libero optio omnis, ullam sapiente, saepe perspiciatis similique exercitationem, fugiat vero ipsum deserunt. Expedita doloremque sed suscipit praesentium ea?</p>
+    </div>
+</div>
+{% endblock %}
