@@ -1,6 +1,6 @@
 window.onload = function () {
   var hum = document.getElementById("hum");
-  var menu = document.getElementById("menu");
+  var menu = document.getElementById("menu" );
   var isOpen = false;
 
   hum.addEventListener("click", () => {
