@@ -57,7 +57,7 @@ a {
 .hamburger-menu {
   height: 20px;
   width: 20px;
-  border-radius: 1px solid white;
+  border-radius: 1px solid #ccc;
   display: flex;
   align-items: center;
   display: none;
@@ -66,7 +66,7 @@ a {
 .line {
   height: 3px;
   width: 20px;
-  background-color: white;
+  background-color: #ccc;
   transition: all 0.2s ease-in-out;
 }
 
@@ -75,7 +75,7 @@ a {
   content: "";
   height: 3px;
   width: 20px;
-  background-color: white;
+  background-color: #ccc;
   position: absolute;
 }
 
