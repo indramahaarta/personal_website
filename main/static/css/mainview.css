@@ -40,6 +40,7 @@
 
 .content-title {
   margin-bottom: 45px;
+  font-weight: 600;
 }
 
 .landing button:focus {
@@ -147,7 +148,6 @@
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  font-weight: bold;
   position: relative;
   transform-style: preserve-3d;
   transition: all 1s ease-in-out;
@@ -214,6 +214,10 @@
   padding: 0.3em 0;
 }
 
+.text-img center {
+  font-weight: 600;
+}
+
 .portfolio {
   background-color: #98B4AA;
 }
@@ -254,6 +258,10 @@
 .text-content {
   width: 42%;
   margin: 30px;
+}
+
+.text-content .title {
+  font-weight: 600;
 }
 
 .wrapper i {
